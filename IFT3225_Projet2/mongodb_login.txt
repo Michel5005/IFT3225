@@ -1,0 +1,4 @@
+alexandretherrien1_db_user // bPs2I94F8Ei1tmIy
+michel_db_user // EppZAqxr0NFnfOoL
+
+connection string: mongodb+srv://<db_username>:<db_password>@cluster0.cmcz8cl.mongodb.net/?appName=Cluster0
