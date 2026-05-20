@@ -6,7 +6,7 @@ const auth = require('./auth');
 
 
 // MongoDB connection
-mongoose.connect("mongodb://michel_db_user:EppZAqxr0NFnfOoL@ac-6jzp28v-shard-00-00.cmcz8cl.mongodb.net:27017,ac-6jzp28v-shard-00-01.cmcz8cl.mongodb.net:27017,ac-6jzp28v-shard-00-02.cmcz8cl.mongodb.net:27017/test?ssl=true&replicaSet=atlas-he9kuf-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongoAPI")
   .then(() => console.log('Connexion à MongoDB réussie !'))
   .catch((error) => console.log('Connexion à MongoDB échouée !', error));
 
